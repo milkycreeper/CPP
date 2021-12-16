@@ -3,20 +3,9 @@
 
 int main()
 {
-    int x;
-    int y;
-    scanf("%d", &x);
-    scanf("%d", &y);
-
-    int z=x*y;
-    int a=x+y;
-    int b=x-y;
-    int c=x/y;
-
-    printf("mnozenje %d\n", z);
-    printf("zbrajanje %d\n", a);
-    printf("oduzimanje %d\n", b);
-    printf("dijeljenje %d\n", c);
-
+    printf("6 == 6 -> %d.\n", (6 == 6));
+    printf("3 > 5 -> %d.\n", (3 > 5));
+    printf("3 < 5 -> %d.\n", (3 < 5));
+    printf("5 >= 5 -> %d.\n", (5 >= 5));
+    printf("8 != 9 -> %d.\n", (8 != 9));
 }
-
