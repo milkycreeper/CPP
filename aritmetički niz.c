@@ -1,26 +1,28 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+int main(void)
+{
 
-    int a;
-    int b;
-    int c;
-    int k=0;
+int a;
+int b;
+int c;
+int sum;
 
-    printf("Unesi prvi broj:");
-    scanf("%d", &a);
-    printf("\nUnesi drugi broj:");
-    scanf("%d", &b);
-    printf("\nUnesi treci broj:");
-    scanf("%d", &c);
+printf("Unesi broj a: ");
+scanf("%d", &a);
 
-    int i=c;
-    while(i){
-        i--;
-        k+=i;
-    }
-printf("%d",k);
+printf("Unesi broj b: ");
+scanf("%d", &b);
 
+printf("Unesi broj c: ");
+scanf("%d", &c);
 
+for(int i=1; i<=c;i++){
+    sum=0;
+    for(int j=0; j<i; j++){
+         sum+=a;
+        a+=b;}
+}
+printf("%d\n",sum);
 }
