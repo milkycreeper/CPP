@@ -8,9 +8,12 @@ int main(){
     int nestojeodabrano=1;
     float sum=0;
     int i;
+    int count=0;
 
     while(nestojeodabrano){
-    //system("cls");
+    system("cls");
+    printf("Racun broj %d\t", ++count);
+    printf("Promet: %.2f\n", sum);
     printf("1. Kava: 120kn\n");
     printf("2. Sladoled: 1,5kn\n");
     printf("3. Govno: 25kn\n");
